@@ -49,5 +49,4 @@ let removeItem = (dell) =>{
     dell.parentElement.remove();
 }
 
-
                        // END
