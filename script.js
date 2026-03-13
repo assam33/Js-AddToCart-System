@@ -1,9 +1,9 @@
 // creating array and assign values to the array (dynamic creating multiple cards) 
 let items = [
-    {img: "/assets/images/burger1.webp",name: "burger1",price: 350},
-    {img: "/assets/images/burger2.webp",name: "burger2",price: 400},
-    {img: "/assets/images/burger3.webp",name: "burger3",price: 550},
-    {img: "/assets/images/burger4.webp",name: "burger4",price: 600}
+    {img: "assets/images/burger1.webp",name: "burger1",price: 350},
+    {img: "assets/images/burger2.webp",name: "burger2",price: 400},
+    {img: "assets/images/burger3.webp",name: "burger3",price: 550},
+    {img: "assets/images/burger4.webp",name: "burger4",price: 600}
 ]
 // dynamicaly ading the items into the cards section
 let product = document.querySelector('.products');
@@ -48,5 +48,6 @@ let removeItem = (dell) =>{
 
     dell.parentElement.remove();
 }
+
 
                        // END
